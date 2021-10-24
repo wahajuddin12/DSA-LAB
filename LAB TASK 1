@@ -1,0 +1,14 @@
+# Task 1 of palindrome.
+
+name=str(input("Enter your name:"))
+
+print("Name is:",name)
+
+reverse = name[::-1]
+
+print("Reverse name is:",reverse)
+
+if name==reverse:
+  print("Name is palindrome:")
+else:
+  print("Name is not palindrome:")
